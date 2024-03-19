@@ -13,6 +13,3 @@ def docs():
 @app.route("/about")
 def about():
     return render_template("index.html", title="about page")
-
-if __name__ == "__main__":
-    app.run
